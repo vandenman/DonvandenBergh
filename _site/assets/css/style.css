@@ -736,7 +736,6 @@
 /* Banner */
 
 	#banner {
-		/*background-image: url("../images/banner.jpg");*/
 		background-image: url("../images/Tuebingen.jpg");
 		background-position: center center;
 		background-size: cover;
