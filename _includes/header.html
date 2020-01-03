@@ -42,32 +42,11 @@
 					<nav id="nav">
 						<ul>
 							{% assign current = page.url | downcase | split: '/' %}
-							<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
-							<!-- <li>
-								<a href="">Dropdown</a>
-								<ul>
-									<li><a href="#">Lorem dolor</a></li>
-									<li><a href="#">Magna phasellus</a></li>
-									<li><a href="#">Etiam sed tempus</a></li>
-									<li>
-										<a href="">Submenu</a>
-										<ul>
-											<li><a href="#">Lorem dolor</a></li>
-											<li><a href="#">Phasellus magna</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam nisl</a></li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Veroeros feugiat</a></li>
-								</ul>
-							</li> -->
-							<!-- <li {% if current[1] == 'Blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/Blog">Blog</a></li> -->
-
-              <!-- <li {% if current[1] == 'Publications' %}class="current"{% endif %}><a href="{{ site.baseurl }}/Publications">Publications</a></li> -->
+							<!-- <li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li> -->
 							<li {% if current[1] == 'About' %}class="current"{% endif %}><a href="{{ site.baseurl }}/About">About</a></li>
-              <li {% if current[1] == 'Software' %}class="current"{% endif %}><a href="{{ site.baseurl }}/Software">Software</a></li>
-              <li {% if current[1] == 'Resume' %}class="current"{% endif %}><a href="{{ site.baseurl }}/Resume">Resume</a></li>
+							<li {% if current[1] == 'Publications' %}class="current"{% endif %}><a href="{{ site.baseurl }}/Publications">Publications</a></li>
+							<!-- <li {% if current[1] == 'Presentations' %}class="current"{% endif %}><a href="{{ site.baseurl }}/Presentations">Presentations</a></li> -->
+							<li {% if current[1] == 'Software' %}class="current"{% endif %}><a href="{{ site.baseurl }}/Software">Software</a></li>
 						</ul>
 					</nav>
 
