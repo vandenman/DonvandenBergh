@@ -22,7 +22,7 @@ const bibfile   = "myReferences.bib"
 const outfile   = "referenceList.html"
 
 const path = joinpath(pwd(), "bibtexGenerator")
-const destfile = joinpath(pwd(), "Publications", outfile)
+const destfile = joinpath(pwd(), "_includes", outfile)
 
 # if isdir("/home/don")
 #     const path      = "/home/don/surfdrive/PhD/Utilities/bib/"
