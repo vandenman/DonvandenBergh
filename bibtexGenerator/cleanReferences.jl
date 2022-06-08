@@ -231,10 +231,10 @@ end
 
 function Base.isless(x::Reference, y::Reference)
 
-    x.submitted && return true
-    y.submitted && return false
-    x.inpress   && return true
-    y.inpress   && return false
+    x.submitted && !y.submitted && return true
+    y.submitted && !x.submitted && return false
+    x.inpress   && !y.inpress   && return true
+    y.inpress   && !x.inpress   && return false
 
     xYear = parse(Int, x.year)
     yYear = parse(Int, y.year)
