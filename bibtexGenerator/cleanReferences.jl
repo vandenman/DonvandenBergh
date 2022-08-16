@@ -37,7 +37,7 @@ const stem = splitext(bibfile)[1]
 const htmlfile = stem * ".html"
 
 function compileReferencesToHtml()
-    run(`bibtex2html -nokeys --nobibsource -f psyarxiv -nf psyarxiv "PsyArXiv" -o $stem -s apa -nodoc -q $bibfile`)
+    run(`bibtex2html -nokeys --nobibsource -f psyarxiv -nf psyarxiv "PsyArXiv" -o $stem -s apa -nodoc $bibfile`)
 end
 
 function getHtmlFile()

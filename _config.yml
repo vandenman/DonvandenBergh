@@ -1,2 +1,2 @@
 baseurl: /DonvandenBergh
-exclude: ['README.md', 'bibtexGenerator']
+exclude: ['README.md', 'bibtexGenerator', 'vendor']
