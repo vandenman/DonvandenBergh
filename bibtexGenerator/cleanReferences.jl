@@ -98,7 +98,7 @@ function getJournal(s)
     if i1 === nothing || i2 === nothing
         return nothing
     end
-    return s[(i1[2]+3):(i2[1]-1)]
+    return s[nextind(s, i1[2], 3):prevind(s, i2[1])]
 end
 
 function getTitle(s)
