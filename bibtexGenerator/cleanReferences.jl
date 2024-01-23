@@ -285,4 +285,5 @@ function main()
 end
 main()
 
+# julia bibtexGenerator/cleanReferences.jl
 # bundle exec jekyll serve
