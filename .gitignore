@@ -3,6 +3,6 @@ vendor/
 _site/
 
 .quarto
-TODO.md
+_TODO.md
 
 /.quarto/
