@@ -20,5 +20,6 @@ include-after-body:
 - [EqualitySampler.jl](https://github.com/vandenman/EqualitySampler.jl): a Julia library for considering all possible equality constraints across parameters and sampling from the posterior distribution over equality constraints.
 
 
-<!-- So it get's copied to _site -->
+<!-- So it get's copied to docs -->
 ![](logos/julia_logo_light.svg){height=0em}
+![](logos/github_logo_light.svg){height=0em}
