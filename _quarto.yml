@@ -9,6 +9,17 @@ website:
       - href: publications/publications.qmd
         text: Publications
       - software.qmd
+  page-footer:
+    left: Copyright © 2025 Don van den Bergh
+    right:
+      - text: "![](logos/github_logo_dark.svg){.quarto-dark height=1em} Github"
+        href: https://github.com/vandenman
+      - text: "![](logos/ORCID_iD_logo.svg){height=1em} Orcid"
+        href: https://orcid.org/0000-0002-9838-7308
+      - text: "![](logos/google_scholar_logo.svg){height=1em} Scholar"
+        href: https://scholar.google.com/citations?user=WbbKtuQAAAAJ&hl
+      - text: "![](logos/linkedIn_logo.svg){height=1em} Linkedin"
+        href: https://www.linkedin.com/in/don-van-den-bergh-05500964/
 
 format:
   html:
@@ -16,6 +27,9 @@ format:
       dark: [solar, styles.scss]
       light: [solar, styles_light.scss]
     toc: true
+    include-after-body:
+      text: <script type="application/javascript" src="light-dark.js"></script>
+
 
 
 
