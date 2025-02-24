@@ -1,12 +1,11 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Don van den Bergh"
   navbar:
     left:
-      # - href: index.qmd
-      #   text: Home
       - href: publications/publications.qmd
         text: Publications
       - software.qmd
