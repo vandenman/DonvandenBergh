@@ -2,7 +2,7 @@
 title: "Don van den Bergh"
 about:
   template: trestles
-  image: images/P1390889-2.jpg
+  image: images/defense.webp
   links:
     - icon: github
       text: Github
