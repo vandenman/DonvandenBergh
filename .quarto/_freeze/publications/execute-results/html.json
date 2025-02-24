@@ -1,0 +1,12 @@
+{
+  "hash": "8fd149ac19bc042d1aa4070cf407dc0c",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"Publications\"\nengine: julia\n---\n\nAbout this site\n\n::: {#2 .cell execution_count=1}\n``` {.julia .cell-code}\nimport Pkg\nPkg.status()\n1+1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nStatus `~/.julia/scratchspaces/4c0109c6-14e9-4c88-93f0-2b974d3468f4/loader.1.11.3.1RlVjp7m89p/Project.toml`\n  [38328d9c] QuartoNotebookWorker v0.1.0 `~/.julia/packages/QuartoNotebookRunner/eYIiC/src/QuartoNotebookWorker`\n```\n:::\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\n2\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "publications_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

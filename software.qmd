@@ -1,0 +1,24 @@
+---
+title: "Software"
+include-after-body:
+  text: |
+    <script type="application/javascript" src="light-dark.js"></script>
+---
+
+![](logos/JASP_logo_green.svg){height=4em}
+
+- I contribute to the R code that drives the analyses in [JASP](https://jasp-stats.org/), a free and open-source program for statistics. For example, I've contributed to the JAGS module, network module, Bayesian ANOVAs, Bayesian linear regression, and Bayesian t-tests.
+
+
+![](logos/Rlogo.svg){height=4em}
+
+- [DstarM]("https://cran.r-project.org/package=DstarM"): an R package for anlayzing two-choice reaction time data.
+- [NetworkComparisonTest]("https://cran.r-project.org/package=NetworkComparisonTest"): Statistical Comparison of Two Networks Based on Several Invariance Measures.
+
+![](logos/julia_logo_dark.svg){.quarto-dark height=4em}
+
+- [EqualitySampler.jl](https://github.com/vandenman/EqualitySampler.jl): a Julia library for considering all possible equality constraints across parameters and sampling from the posterior distribution over equality constraints.
+
+
+<!-- So it get's copied to _site -->
+![](logos/julia_logo_light.svg){height=0em}

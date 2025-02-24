@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Don van den Bergh"
+  navbar:
+    left:
+      # - href: index.qmd
+      #   text: Home
+      - href: publications/publications.qmd
+        text: Publications
+      - software.qmd
+
+format:
+  html:
+    theme:
+      dark: [solar, styles.scss]
+      light: [solar, styles_light.scss]
+    toc: true
+
+
+
