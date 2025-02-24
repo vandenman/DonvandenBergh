@@ -1,0 +1,37 @@
+---
+title: "Don van den Bergh"
+about:
+  template: trestles
+  image: images/P1390889-2.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/vandenman
+    - icon: orcid
+      text: "![](logos/ORCID_iD_logo.svg){height=1em} Orcid"
+      href: https://orcid.org/0000-0002-9838-7308
+    - text: "![](logos/google_scholar_logo.svg){height=1em} Scholar"
+      href: https://scholar.google.com/citations?user=WbbKtuQAAAAJ&hl
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/don-van-den-bergh-05500964/
+    # - text: "![](logos/bluesky_logo.svg){height=1em} Bluesky"
+    #   href: https://bsky.app/profile/donvdbergh.bsky.social
+
+---
+
+I’m Don van den Bergh, a postdoctoral researcher at the University of Amsterdam and part of the [Bayesian graphical modeling lab](https://bayesiangraphicalmodeling.com/).
+My work focuses on developing new models for psychological data, applying Bayesian inference, and advancing computational statistics.
+The modeling aspect of my work revolves around designing new models that accurately describe psychological processes.
+For example, in [this paper](https://doi.org/10.1093/jrsssc/qlad109), we developed a Bayesian hierarchical model to account for differences across patients, staff members, and items, applying it to data from a Dutch maximum-security forensic psychiatric center.
+[In another](https://doi.org/10.31234/osf.io/acjdq), we introduced a multilevel Gaussian graphical model for fMRI data.
+
+
+Bayesian inference underpins nearly all of my work, and I am a strong advocate of Bayes factor hypothesis testing.
+For example, in [this paper](https://doi.org/10.1214/23-BA1369), we developed a default Bayes factor to compare variances across multiple groups.
+As the number of competing models grows, I prefer Bayesian model averaging.
+In [this paper](https://doi.org/10.48550/arXiv.2208.07086), we compare all possible sets of equality constraints across groups and devise priors to accommodate multiplicity corrections.
+
+
+I believe that an important part of research is not only developing new methods but also ensuring their application in empirical research.
+To this end, I develop open-source software, including R and Julia packages, and contribute to the statistical software program JASP.

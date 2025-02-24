@@ -1,3 +1,6 @@
 .bundle/
 vendor/
 _site/
+
+.quarto
+TODO.md

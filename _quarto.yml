@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Don van den Bergh"
+  navbar:
+    left:
+      - href: publications/publications.qmd
+        text: Publications
+      - software.qmd
+
+format:
+  html:
+    theme:
+      dark: [solar, styles.scss]
+      light: [solar, styles_light.scss]
+    toc: true
+
+
+
