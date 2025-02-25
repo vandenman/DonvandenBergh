@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - CNAME
+    - logos/julia_logo_light.svg
+    - logos/github_logo_light.svg
 
 website:
   title: "Don van den Bergh"
@@ -28,7 +32,9 @@ format:
       light: [solar, styles_light.scss]
     toc: true
     include-after-body:
-      text: <script type="application/javascript" src="light-dark.js"></script>
+      text: |
+        <script type="application/javascript" src="light-dark.js"></script>
+        <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
 
 
