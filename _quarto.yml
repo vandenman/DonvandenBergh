@@ -34,7 +34,7 @@ format:
     include-after-body:
       text: |
         <script type="application/javascript" src="light-dark.js"></script>
-        <script async src="https://api.donvandenbergh.com/latest.js"></script>
+        <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
 
 
