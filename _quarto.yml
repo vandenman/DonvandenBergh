@@ -5,6 +5,8 @@ project:
     - CNAME
     - logos/julia_logo_light.svg
     - logos/github_logo_light.svg
+    - images/defense.avif
+    - images/defense.webp
 
 website:
   title: "Don van den Bergh"
@@ -24,6 +26,7 @@ website:
         href: https://scholar.google.com/citations?user=WbbKtuQAAAAJ&hl
       - text: "![](logos/linkedIn_logo.svg){height=1em} Linkedin"
         href: https://www.linkedin.com/in/don-van-den-bergh-05500964/
+  search: false # disable search for now
 
 format:
   html:

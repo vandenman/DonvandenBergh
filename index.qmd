@@ -2,7 +2,14 @@
 title: "Don van den Bergh"
 about:
   template: trestles
-  image: images/defense.webp
+  image: |
+    ">
+    <picture>
+      <source srcset="images/defense.avif" type="image/avif">
+      <source srcset="images/defense.webp" type="image/webp">
+      <img src="images/defense.avif" class="about-image rounded" style="width: 20em;" alt="Defense">
+    </picture>
+    <img src = "" style="display: none;"
   links:
     - icon: github
       text: Github
