@@ -85,11 +85,11 @@ end
 
 main()
 
-test_path = joinpath(dirname(dirname(pathof(DocumenterCitations))), "test/test_formatting/preprints.bib")
-bib = DocumenterCitations.CitationBibliography(test_path)
-b = first(values(bib.entries))
-DocumenterCitations.format_published_in(b) # doi
-DocumenterCitations.format_published_in(b, article_link_doi_in_title = true) # no doi
+# test_path = joinpath(dirname(dirname(pathof(DocumenterCitations))), "test/test_formatting/preprints.bib")
+# bib = DocumenterCitations.CitationBibliography(test_path)
+# b = first(values(bib.entries))
+# DocumenterCitations.format_published_in(b) # doi
+# DocumenterCitations.format_published_in(b, article_link_doi_in_title = true) # no doi
 
-DocumenterCitations.format_authoryear_bibliography_reference(:authoryear, b) # doi around journal
-DocumenterCitations.format_authoryear_bibliography_reference(:authoryear, b, article_link_doi_in_title = true) # doi around journal and title
+# DocumenterCitations.format_authoryear_bibliography_reference(:authoryear, b) # doi around journal
+# DocumenterCitations.format_authoryear_bibliography_reference(:authoryear, b, article_link_doi_in_title = true) # doi around journal and title

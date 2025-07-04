@@ -10,6 +10,8 @@ engine: julia
 
 # import Pkg
 # Pkg.status()
+import Pkg
+Pkg.activate("publications", io = devnull)
 
 import Markdown, Bibliography, BibInternal, DocumenterCitations
 
@@ -61,7 +63,7 @@ function print_reference(b)
 end
 
 function main()
-    bibfile = "myReferences.bib"
+    bibfile = "publications/myReferences.bib"
     bib_content = Bibliography.import_bibtex(bibfile)
     bib_values = collect(values(bib_content))
 

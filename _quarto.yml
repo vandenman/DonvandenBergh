@@ -12,8 +12,7 @@ website:
   title: "Don van den Bergh"
   navbar:
     left:
-      - href: publications/publications.qmd
-        text: Publications
+      - publications.qmd
       - software.qmd
   page-footer:
     left: Copyright © 2025 Don van den Bergh
