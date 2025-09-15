@@ -26,6 +26,7 @@ website:
       - text: "![](logos/linkedIn_logo.svg){height=1em} Linkedin"
         href: https://www.linkedin.com/in/don-van-den-bergh-05500964/
   search: false # disable search for now
+  favicon: logo/favicon.ico
 
 format:
   html:
@@ -33,6 +34,13 @@ format:
       dark: [solar, styles.scss]
       light: [solar, styles_light.scss]
     toc: true
+    include-after-head:
+      text: |
+        <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+        <link rel="manifest" href="/favicon/site.webmanifest" />
     include-after-body:
       text: |
         <script type="application/javascript" src="light-dark.js"></script>
