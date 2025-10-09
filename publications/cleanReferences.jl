@@ -1,4 +1,4 @@
-import Markdown, Bibliography, DocumenterCitations
+import Markdown, Bibliography, DocumenterCitations, Dates
 
 function comparer(x, y)
 
@@ -9,11 +9,36 @@ function comparer(x, y)
 
     xYear = parse(Int, get_year(x))
     yYear = parse(Int, get_year(y))
+
+    xMonth = get_month(x)
+    yMonth = get_month(y)
+
+    if xYear == yYear
+        # we intentionally reverse the order here, so that higher months come first, as they are more recent
+        return isless(xMonth, yMonth)
+    end
+
     return isless(yYear, xYear)
 end
 
 get_year(b)     = b.date.year
 get_journal(b)  = b.in.journal
+function get_month(b)
+    (isnothing(b.date.month) || isempty(b.date.month)) && return 12
+
+    m = b.date.month
+    if all(isdigit, m)
+        result = tryparse(Int, m)
+        !isnothing(result) && return result
+    end
+
+    m = lowercase(m)
+    for i in 1:12
+        m == lowercase.(Dates.monthname(i)) && return i
+        m == lowercase.(Dates.monthabbr(i)) && return i
+    end
+    return 12
+end
 
 submitted(b)  = lowercase(get_journal(b)) == "manuscript submitted for publication"
 inpress(b)    = lowercase(get_year(b))    == "in press"
@@ -33,6 +58,14 @@ function main()
     # b = popfirst!(bib_values)
 
     sort!(bib_values, lt = comparer)
+
+    # TODO: need to update the months... in the bibtex file.
+    # twice, once when it's online, and once more when it's officialy published.
+
+    # bib_values[3].title
+    # bib_values[3].date.month
+    # bib_values[4].date.month
+    # bib_values[5].date.month
 
     # origName1 = BibInternal.Name("{van den", "Bergh}", "", "Don",  "")
     # origName2 = BibInternal.Name("{van den", "Bergh}", "", "D.",   "")
