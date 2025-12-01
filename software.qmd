@@ -9,8 +9,8 @@ title: "Software"
 
 ![](logos/Rlogo.svg){height=4em}
 
-- [DstarM]("https://cran.r-project.org/package=DstarM"): an R package for anlayzing two-choice reaction time data.
-- [NetworkComparisonTest]("https://cran.r-project.org/package=NetworkComparisonTest"): Statistical Comparison of Two Networks Based on Several Invariance Measures.
+- [DstarM](https://cran.r-project.org/package=DstarM): an R package for anlayzing two-choice reaction time data.
+- [NetworkComparisonTest](https://cran.r-project.org/package=NetworkComparisonTest): Statistical Comparison of Two Networks Based on Several Invariance Measures.
 
 ![](logos/julia_logo_dark.svg){.quarto-dark height=4em}
 
