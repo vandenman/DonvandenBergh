@@ -27,7 +27,7 @@ about:
 
 ---
 
-I’m Don van den Bergh, a postdoctoral researcher at the University of Amsterdam and part of the [Bayesian graphical modeling lab](https://bayesiangraphicalmodeling.com/).
+I’m Don van den Bergh, an assistant professor at Tilburg University.
 My work focuses on developing new models for psychological data, applying Bayesian inference, and advancing computational statistics.
 The modeling aspect of my work revolves around designing new models that accurately describe psychological processes.
 For example, in [this paper](https://doi.org/10.1093/jrsssc/qlad109), we developed a Bayesian hierarchical model to account for differences across patients, staff members, and items, applying it to data from a Dutch maximum-security forensic psychiatric center.
@@ -42,3 +42,5 @@ In [this paper](https://doi.org/10.48550/arXiv.2208.07086), we compare all possi
 
 I believe that an important part of research is not only developing new methods but also ensuring their application in empirical research.
 To this end, I develop open-source software, including R and Julia packages, and contribute to the statistical software program JASP.
+
+Previously, I was a postdoctoral researcher at the University of Amsterdam, where I worked with the [Bayesian graphical modeling lab](https://bayesiangraphicalmodeling.com/).
